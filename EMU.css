@@ -1,0 +1,36 @@
+body {
+    font-family: monospace;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+#prompt {
+    display: block;
+}
+
+#command-line {
+    display: block;
+    overflow-y: scroll;
+    height: 600px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+#command-line p {
+    margin: 10px 0px 0px 0px;
+}
+
+#command-line h3{
+    margin: 2px 0px;
+    padding: 0 ;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    font-family: monospace;
+    width: 90%;
+}
